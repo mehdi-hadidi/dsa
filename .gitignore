@@ -32,3 +32,5 @@
 *.app
 app
 .vscode/
+./main.cpp
+/build

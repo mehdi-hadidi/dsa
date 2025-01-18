@@ -4,19 +4,20 @@
 #include <memory>
 #include <array>
 
-
 #include "linked_list.hpp"
 #include "array.hpp"
 
-struct person
-{
-    std::string name;
-};
 
 int main()
 {
      
+    mh::array<int,3> array;
+    array[0] = 10;
 
+    for(int i : array)
+    {
+        std::cout << i << std::endl;
+    }
 
     return 0;
 };
